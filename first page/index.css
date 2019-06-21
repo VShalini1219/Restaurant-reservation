@@ -1,0 +1,206 @@
+.bs-example{
+    margin: 20px; 
+
+    
+
+}
+body{
+    background-size: 100%;
+    background-color:blue;
+}
+.container{
+    top:100%;
+}
+.button
+{
+  border:60px;
+  padding:80px 70px;
+  background-image:url(csm_TI_RESTAURANT_PALMBEACH4_RGB_2000x860_add5f54263.jpg);
+  background-size:cover;
+  color:black;
+  width:20%;
+  top:-5.5%;
+  text-align: top;
+  font-size: 180%;
+  font-family: Monotype Corsiva;
+  margin-top:50px;
+  border:none;
+  outline:none;
+  margin-left:40px;
+  color:white;
+  transition:3s;
+  border-radius:10px;
+}
+.button:hover{
+    background-image:url(be.jpg);
+    transition: 2s;
+}
+.button1
+{
+  border:60px;
+  padding:80px 70px;
+  background-image:url(001.jpg);
+  background-size:cover;
+  color:white;
+  width: 20%;
+  top:-5.5%;
+  text-align: top;
+  font-size: 180%;
+  font-family: Monotype Corsiva;
+  margin-top:50px;
+  border:none;
+  outline:none;
+  margin-left:40px;
+  color:white;
+  transition:3s;
+  border-radius:10px;
+}
+.button1:hover{
+    background-image:url();
+    transition: 2s;
+}
+.button2
+{
+  border:60px;
+  padding:80px 70px;
+  background-image:url(289626.jpg);
+  background-size:cover;
+  color:white;
+  top:-5.5%;
+  text-align: top;
+  font-size: 180%;
+  font-family: Monotype Corsiva;
+  margin-top:50px;
+  border:none;
+  width:20%;
+  outline:none;
+  margin-left:40px;
+  color:white;
+  transition:3s;
+  border-radius:10px;
+}
+.button2:hover{
+    background-image:url(be2.jpg);
+    transition: 2s;
+}
+.button3
+{
+  border:60px;
+  padding:80px 70px;
+  background-image:url(csm_restaurant-img-02_d666f4932c.jpg);
+  background-size:cover;
+  color:white;
+  top:-5.5%;
+  text-align: top;
+  font-size: 180%;
+  font-family: Monotype Corsiva;
+  margin-top:50px;
+  border:none;
+  width:20%;
+  outline:none;
+  margin-left:40px;
+  color:white;
+  transition:3s;
+  border-radius:10px;
+}
+.button3:hover{
+    background-image:url(be3.jpg);
+    transition: 2s;
+}
+.button4
+{
+  border:60px;
+  padding:80px 70px;
+  background-image:url(images.jpg);
+  background-size:cover;
+  color:white;
+  top:-5.5%;
+  text-align: top;
+  font-size: 180%;
+  font-family: Monotype Corsiva;
+  margin-top:50px;
+  width:20%;
+  border:none;
+  outline:none;
+  margin-left:40px;
+  color:white;
+  transition:3s;
+  border-radius:10px;
+}
+.button4:hover{
+    background-image:url(be4.jpg);
+    transition: 2s;
+}
+.button5
+{
+  border:60px;
+  padding:80px 70px;
+  background-image:url(Sands-Restaurant.jpg);
+  background-size:cover;
+  color:white;
+  top:-5.5%;
+  text-align: top;
+  font-size: 180%;
+  font-family: Monotype Corsiva;
+  margin-top:50px;
+  border:none;
+  outline:none;
+  width:20%;
+  margin-left:40px;
+  color:white;
+  transition:3s;
+  border-radius:10px;
+}
+.button5:hover{
+    background-image:url(be6.jpg);
+    transition: 2s;
+}
+.button6
+{
+  border:60px;
+  padding:80px 70px;
+  background-image:url(Toronto-restaurant-Sara-entertainment-district-OD_KCHN0554-HERO-SHOT.jpg);
+  background-size:cover;
+  color:white;
+  top:-5.5%;
+  text-align: top;
+  font-size: 180%;
+  font-family: Monotype Corsiva;
+  margin-top:50px;
+  width:20%;
+  border:none;
+  outline:none;
+  margin-left:40px;
+  color:white;
+  transition:3s;
+  border-radius:10px;
+}
+.button6:hover{
+    background-image:url(be7.jpg);
+    transition: 2s;
+}
+.button7
+{
+  border:60px;
+  padding:80px 70px;
+  background-image:url(31444674_BINARY_GI20180522_GONCALO_VILLAVERDE_0137_resultado.jpg);
+  background-size:cover;
+  color:white;
+  top:-5.5%;
+  text-align: top;
+  font-size: 180%;
+  font-family: Monotype Corsiva;
+  margin-top:50px;
+  border:none;
+  width:20%;
+  outline:none;
+  margin-left:40px;
+  color:white;
+  transition:3s;
+  border-radius:10px;
+}
+.button7:hover{
+    background-image:url(be8.jpg);
+    transition: 2s;
+}
+
