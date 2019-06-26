@@ -3,6 +3,7 @@ package com.restaurantbooking.restaurantbooking.web;
 
 
 import com.restaurantbooking.restaurantbooking.model.Location;
+import com.restaurantbooking.restaurantbooking.model.Restaurant;
 import com.restaurantbooking.restaurantbooking.service.LocationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
@@ -44,6 +45,11 @@ public class LocationController {
         return Optional.ofNullable(createdLocation)
                 .map(u -> ResponseEntity.ok().body(u))
                 .orElse(ResponseEntity.notFound().build());
+    }
+
+    @RequestMapping(value = "/locations/{id}/restaurants", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    public List<Restaurant> getRestaurantsByLocationId(@PathVariable Long id) {
+        return locationService.getRestaurantsByLocationId(id);
     }
 
 }

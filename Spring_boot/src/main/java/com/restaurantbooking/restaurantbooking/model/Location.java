@@ -3,6 +3,7 @@ package com.restaurantbooking.restaurantbooking.model;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -14,7 +15,7 @@ public class Location {
 
     @JsonIgnore
     @OneToMany(mappedBy = "location")
-    private List<Restaurant> restaurant;
+    private List<Restaurant> restaurant = new ArrayList<>();
 
     public Long getId() {
         return id;

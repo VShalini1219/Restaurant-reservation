@@ -38,5 +38,9 @@ public class LocationService {
     public Location getLocationById(Long id) {
         return locationRepository.findById(id).orElse(null);
     }
+
+    public List<Restaurant> getRestaurantsByLocationId(Long locationId) {
+        return locationRepository.findById(locationId).map(Location::getRestaurant).orElse(null);
+    }
 }
 

@@ -17,7 +17,7 @@ public class Restaurant {
 
 
     @ManyToOne
-    @JoinColumn(name = "locationId",referencedColumnName = "id")
+    @JoinColumn(name = "location_id",referencedColumnName = "id")
     private Location location;
 
 

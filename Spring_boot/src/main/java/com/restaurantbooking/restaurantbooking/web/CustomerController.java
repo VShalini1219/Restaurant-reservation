@@ -49,6 +49,11 @@ public class CustomerController {
 
     @RequestMapping(value = "/customers", method = RequestMethod.PUT, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public ResponseEntity<Customer> CreateCustomer(@RequestBody Customer customer) {
+        if(customer.getCustomerId()==null)
+            return ResponseEntity.badRequest().header("Error", "A Update customer should have 'id'").build();
+        Customer customerById = customerService.getCustomerById(customer.getCustomerId());
+        if(customerById==null)
+            return ResponseEntity.badRequest().header("Error", "Invalid customer. No customer found with id:"+customer.getCustomerId()).build();
         Customer createdCustomer = customerService.CreateCustomer(customer);
         return Optional.ofNullable(createdCustomer)
                 .map(u -> ResponseEntity.ok().body(u))
