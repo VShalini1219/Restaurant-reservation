@@ -65,13 +65,15 @@
                 </div>
                 <div class="form-group row">
                     <div class="col-sm-10 offset-sm-2">
-                        <button type="submit" class="btn btn-primary" onclick="handleClick()">Log in </button>
+                        <button type="button" class="btn btn-primary" onclick="loginClick()">Log in </button>
                     </div>
                 </div></div>
         <div class="col">    </div>
         
     </div>
     <script type="text/javascript">
+
+
         function postData(url = '', data = {}) {
             console.log('We are here');
             // Default options are marked with *
@@ -91,7 +93,7 @@
                 .then(response => response.json()); // parses JSON response into native Javascript objects 
         }
 
-        function handleClick() {
+        /* function handleClick() {
             console.log('Hi');
            
             const email = document.getElementById('inputEmail').value;
@@ -108,6 +110,7 @@
             postData(Data.url, Data.data)
                 .then(data =>{
                     if((JSON.stringify(data))=="true"){
+
                         alert(Login Successfull);
                         window.location(home.html);
                     }
@@ -115,7 +118,113 @@
                         alert(Invalid credentials);
                 })
                 .catch(error => console.error(error));
+        }  */
+
+
+    function loginClick(){
+    console.log('entered into click');
+    const email=document.getElementById('inputEmail').value;
+    const password=document.getElementById('inputPassword').value;
+
+
+        const url='http://localhost:8080/api/customers/login';
+        const data= {
+            'customerEmail':email,
+            'customerPassword':password
+        };
+        console.log(''+JSON.stringify(data));
+        fetch(url,{
+            method: 'POST',
+            headers: {
+                'Content-Type':'application/json',
+            },
+            body: JSON.stringify(data),
+        })
+
+        .then(response => response.json())
+
+        
+        
+        .then(data=>{
+        if(data== true)
+        {
+            console.log("login successful");
+            getdata(email);      
+          }
+        if (data== false) {
+            alert("bad login credentials");
+   
         }
+        
+    })
+    .catch(error=>console.error(error));
+}
+
+
+
+
+function getdata(email){
+    alert(email);
+    const url='http://localhost:8080/api/customers/email/get';
+    const data= {
+        'customerEmail':email
+    };
+    console.log(''+JSON.stringify(data));
+    fetch(url,{
+        method: 'POST',
+        headers: {
+            'Content-Type':'application/json',
+        },
+        body: JSON.stringify(data),
+    })
+    .then(response => response.json())
+    .then(data=>{
+        
+
+                alert(data.customerId);
+
+                document.cookie = "id="+data.customerId+";path=/";
+                document.cookie="userName="+data.customerName+";path=/";
+                document.cookie="mailid="+data.customerEmail+";path=/";
+               
+
+    })
+    .catch(error=>console.error(error));
+
+}
+
+
+
+
+
+
+
+
+
+function findCookie(){
+    var username = getCookie("id");
+    if (username != "") {
+     window.location="../location/index.html";
+    }
+}
+
+
+function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for(var i = 0; i < ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') {
+        c = c.substring(1);
+      }
+      if (c.indexOf(name) == 0) {
+        return c.substring(name.length, c.length);
+      }
+    }
+    return "";
+  }
+
     </script>
 
 

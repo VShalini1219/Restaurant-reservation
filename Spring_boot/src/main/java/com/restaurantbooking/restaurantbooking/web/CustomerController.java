@@ -2,6 +2,7 @@ package com.restaurantbooking.restaurantbooking.web;
 
 
 import com.restaurantbooking.restaurantbooking.model.Customer;
+import com.restaurantbooking.restaurantbooking.repository.CustomerRepository;
 import com.restaurantbooking.restaurantbooking.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
@@ -16,6 +17,9 @@ import java.util.Optional;
 public class CustomerController {
     @Autowired
     private CustomerService customerService;
+
+    @Autowired
+    private CustomerRepository customerRepository;
 
     @RequestMapping(value = "/customers", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public List<Customer> getAllCustomers() {
@@ -61,11 +65,11 @@ public class CustomerController {
 
     }
 
-
-
-
-
-
+    @CrossOrigin
+    @RequestMapping(value = "/customers/email/get", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    public Optional<Customer> login(@RequestBody Customer customer){
+        return customerRepository.findByCustomerEmail(customer.getCustomerEmail());
+    }
 }
 
 

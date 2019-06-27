@@ -21,7 +21,7 @@
 
 </head>
 
-<body background="restaurante-varanda-de-lisboa--v15969937-w902 (1).jpg">
+<body background="restaurante-varanda-de-lisboa--v15969937-w902 (1).jpg"  >
     <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3">
         <div class="container">
             <a href="#" class="navbar-brand mr-3">
@@ -65,8 +65,9 @@
                                     <h5 style="color:black; "><b>Phone </b> </h5>
                                 </label>
                                 <div class="col-sm-5">
-                                    <input type="number" class="form-control" id="inputPhone"
+                                    <input type="number" class="form-control" id="inputPhone" onkeyup="ValidSignPhone()"
                                         placeholder="phone number">
+                                    <p class="text-danger" id="altersignphone"></p>
                                 </div>
                             </div>
                             <div class="form-group row">
@@ -93,26 +94,27 @@
                                 </label>
                                 <div class="col-sm-5">
                                     
-                                    <input type="email" class="form-control" id="inputEmail" placeholder="Email"  required onkeyup="checkregname()">
-                                    <p class="text-danger" id="alertregname" ></p>
+                                    <input type="email" class="form-control" id="inputEmail" placeholder="Email"  onkeyup="ValidSignMail()">
+                                    <p class="text-danger" id="altersignmail" ></p>
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="inputPassword" class="col-sm-2 col-form-label">
+                                <label for="inputPassword" class="col-sm-2 col-form-label" >
                                     <h5 style="color:black; "><b>Password</b> </h5>
                                 </label>
                                 <div class="col-sm-5">
-                                    <input type="password" class="form-control" id="inputPassword"placeholder="Password">
+                                    <input type="password" class="form-control" id="inputPassword" required placeholder="Password" onkeyup="ValidSignPassword()">
+                                    <p class="text-danger" id="altersignpass" ></p>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-sm-10 offset-sm-2">
-                                    <label class="form-check-label"><input type="checkbox"> Remember me</label>
+                                    <label class="form-check-label"><input type="checkbox" id="save"> Remember me</label>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-sm-10 offset-sm-2">
-                                    <button type="submit" class="btn btn-primary" onclick="handleClick()">Sign up</button>
+                                    <button type="submit" class="btn btn-primary" id="sign" onclick="handleClick()">Sign up</button>
                                 </div>
                             </div>
                             <div class="col"> </div>
@@ -133,7 +135,7 @@
                 credentials: 'same-origin', // include, *same-origin, omit
                 headers: {
                     'Content-Type': 'application/json',
-                    // 'Content-Type': 'application/x-www-form-urlencoded',
+                    // 'Content-Type': 'application/x-www-form-url  encoded',
                 },
                 redirect: 'follow', // manual, *follow, error
                 referrer: 'no-referrer', // no-referrer, *client
@@ -150,6 +152,8 @@
             const address = document.getElementById('inputAddress').value;
             const pin = document.getElementById('inputNumber').value;
             const password = document.getElementById('inputPassword').value;
+
+
             
             const Data = {
                 url: 'http://localhost:8080/api/customers',
@@ -163,10 +167,66 @@
                 }
             };
             postData(Data.url, Data.data)
-                .then(data => console.log(JSON.stringify(data)))
+
+                .then(data =>console.log(JSON.stringify(data)));
                 .catch(error => console.error(error));
-                alert("SignUp Successfull");
+
+
         }
+
+        function ValidSignMail(){
+            console.log("entered into check mail");
+            var decimal=  /^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+            const element=document.getElementById('inputEmail');
+            const email=element.value;
+            if(email.match(decimal)){
+                console.log("match");
+                document.getElementById('altersignmail').innerHTML=``;
+                document.getElementById('sign').disabled = false;
+            }
+            else{
+                console.log("notmatch");
+                document.getElementById('altersignmail').innerHTML=`enter valid email`;
+                document.getElementById('sign').disabled = true;
+            }
+        }
+        function ValidSignPassword(){
+            console.log("entered into check name");
+            var decimal=  /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,15}$/;
+            const element=document.getElementById('inputPassword');
+            const email=element.value;
+            if(email.match(decimal)){
+                console.log("match");
+                document.getElementById('altersignpass').innerHTML=``;
+                document.getElementById('sign').disabled = false;
+            }
+            else{
+                console.log("notmatch");
+                document.getElementById('altersignpass').innerHTML=`Password must have 8characters including one uppercase, one number and one special character`;
+                document.getElementById('sign').disabled = true;
+            }
+        }
+        function ValidSignPhone(){
+            console.log("entered into check name");
+            var decimal=  /^[2-9]{2}[0-9]{8}$/;
+            const element=document.getElementById('inputPhone');
+            const email=element.value;
+            if(email.match(decimal)){
+                console.log("match");
+                document.getElementById('altersignphone').innerHTML=``;
+                document.getElementById('sign').disabled = false;
+            }
+            else{
+                console.log("notmatch");
+                document.getElementById('altersignphone').innerHTML=`10 digit mobile number need to be entered`;
+                document.getElementById('sign').disabled = true;
+            }
+        }
+
+
+
+
+
     </script>
 
 

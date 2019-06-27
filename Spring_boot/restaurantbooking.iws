@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efd4cb89-f831-4778-a2a1-e745c573f76b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Front_end/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_end/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_end/sign in.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_end/sign in.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/restaurantbooking/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/model/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/repository/CustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/repository/CustomerRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/service/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/web/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/web/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/restaurantbooking/static/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/restaurantbooking/static/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/restaurantbooking/static/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/sign in.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/restaurantbooking/static/sign in.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/restaurantbooking.iws" beforeDir="false" afterPath="$PROJECT_DIR$/restaurantbooking.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/web/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/web/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/sign in.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/sign in.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -12,6 +31,14 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/restaurantbooking$RestaurantbookingApplication.ic" NAME="RestaurantbookingApplication Coverage Results" MODIFIED="1561633445671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.restaurantbooking.restaurantbooking.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="152" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -57,41 +84,41 @@
     <session id="915965732">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.17" value="3" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="html" value="3" />
-          <entry key="java" value="14" />
-          <entry key="yml" value="1" />
+          <entry key="html" value="6" />
+          <entry key="java" value="17" />
+          <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="HTML" value="3" />
-          <entry key="JAVA" value="14" />
-          <entry key="YAML" value="1" />
+          <entry key="HTML" value="6" />
+          <entry key="JAVA" value="17" />
+          <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="4" />
-          <entry key="java" value="358" />
-          <entry key="yml" value="15" />
+          <entry key="html" value="931" />
+          <entry key="java" value="545" />
+          <entry key="yml" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="4" />
-          <entry key="JAVA" value="358" />
-          <entry key="YAML" value="15" />
+          <entry key="HTML" value="931" />
+          <entry key="JAVA" value="545" />
+          <entry key="YAML" value="21" />
         </counts>
       </usages-collector>
     </session>
@@ -101,35 +128,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/web/CustomerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="55" column="134" selection-start-line="55" selection-start-column="134" selection-end-line="55" selection-end-column="134" />
+            <state relative-caret-position="867">
+              <caret line="62" column="54" selection-start-line="62" selection-start-column="54" selection-end-line="62" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/sign in.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="2907">
+              <caret line="171" column="54" selection-start-line="171" selection-start-column="54" selection-end-line="171" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/sign in.html">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="178" column="7" lean-forward="true" selection-start-line="178" selection-start-column="7" selection-end-line="178" selection-end-column="7" />
+            <state relative-caret-position="264">
+              <caret line="107" column="22" lean-forward="true" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/service/UserService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/model/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="170">
+              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -137,44 +173,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-551">
-              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/service/CustomerService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="-1510">
+              <caret line="104" selection-start-line="104" selection-end-line="104" />
               <folding>
-                <element signature="e#1156#1157#0" expanded="true" />
-                <element signature="e#1213#1214#0" expanded="true" />
+                <element signature="n#style#0;n#h5#0;n#label#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h5#0;n#label#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/service/LocationService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/repository/CustomerRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1003#1004#0" expanded="true" />
-                <element signature="e#1070#1071#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -202,6 +224,13 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>org.springframework.boot:spring-boot-starter-com.restaurantbooking.restaurantbooking.web</find>
+      <find>signup</find>
+      <find>bootstrap</find>
+      <find>bootstra</find>
+      <find>query</find>
+      <find>handleClick</find>
+      <find>findcoo</find>
+      <find>ValidSignPassword</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\vj3\git_projects\Restaurant-reservation\Spring_boot</dir>
@@ -215,14 +244,19 @@
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/service/CustomerService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/web/CustomerController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/model/Restaurant.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/model/Location.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/web/LocationController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/service/LocationService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/model/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/home.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/sign in.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/repository/CustomerRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/web/CustomerController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/login.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/1.html" />
       </list>
     </option>
   </component>
@@ -232,13 +266,19 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ModuleEditorState">
     <option name="LAST_EDITED_MODULE_NAME" />
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="36" />
-    <option name="width" value="1890" />
+    <option name="width" value="1116" />
     <option name="height" value="930" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -255,8 +295,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -290,33 +328,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="restaurantbooking" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurantbooking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring_boot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="restaurantbooking" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurantbooking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring_boot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="restaurantbooking" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurantbooking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring_boot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="restaurantbooking" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="restaurantbooking" type="b2602c69:ProjectViewProjectNode" />
@@ -358,6 +369,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -369,7 +382,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561546131891" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561644475793" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -456,18 +469,53 @@
       <updated>1561380745288</updated>
       <workItem from="1561380746819" duration="6471000" />
       <workItem from="1561484308788" duration="445000" />
-      <workItem from="1561533339692" duration="4195000" />
+      <workItem from="1561533339692" duration="11862000" />
+      <workItem from="1561611109057" duration="18074000" />
+      <workItem from="1561655207848" duration="199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11111000" />
+    <option name="totallyTimeSpent" value="37051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25101215" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20890689" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47957373" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.40319717" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3285968" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32955465" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32955465" />
+      <window_info anchor="right" id="Maven Projects" order="10" weight="0.32955465" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25506073" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -487,47 +535,17 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3285968" />
       <window_info anchor="bottom" id="Spring" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Bean Validation" order="7" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32955465" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Maven Projects" order="9" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24939272" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.40319717" />
-      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.3285968" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.3285968" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Database" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Bean Validation" order="4" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32955465" />
+      <window_info anchor="right" id="Maven Projects" order="10" weight="0.32955465" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,9 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -576,13 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
           <caret line="131" column="21" lean-forward="true" selection-start-line="131" selection-start-column="21" selection-end-line="131" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/model/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -600,10 +608,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="1003">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -614,15 +629,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/service/CustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/service/LocationService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1070#1071#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/web/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="62" column="54" selection-start-line="62" selection-start-column="54" selection-end-line="62" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/sign in.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2907">
+          <caret line="171" column="54" selection-start-line="171" selection-start-column="54" selection-end-line="171" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/model/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/repository/CustomerRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -640,49 +699,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/web/CustomerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="55" column="134" selection-start-line="55" selection-start-column="134" selection-end-line="55" selection-end-column="134" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-551">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/service/CustomerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="-1510">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
           <folding>
-            <element signature="e#1156#1157#0" expanded="true" />
-            <element signature="e#1213#1214#0" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#label#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#label#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/sign in.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="178" column="7" lean-forward="true" selection-start-line="178" selection-start-column="7" selection-end-line="178" selection-end-column="7" />
+        <state relative-caret-position="264">
+          <caret line="107" column="22" lean-forward="true" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
         </state>
       </provider>
     </entry>
