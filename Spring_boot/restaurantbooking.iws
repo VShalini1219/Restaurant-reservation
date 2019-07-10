@@ -2,25 +2,117 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efd4cb89-f831-4778-a2a1-e745c573f76b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Front_end/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_end/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_end/sign in.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_end/sign in.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/restaurantbooking/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/model/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/repository/CustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/repository/CustomerRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/service/CustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/web/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/web/CustomerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/restaurantbooking/static/1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/restaurantbooking/static/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/restaurantbooking/static/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/sign in.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/restaurantbooking/static/sign in.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restaurantbooking.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restaurantbooking.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/restaurantbooking/restaurantbooking/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/restaurantbooking/restaurantbooking/model/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/restaurantbooking/restaurantbooking/model/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/restaurantbooking/restaurantbooking/model/Location.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/restaurantbooking/restaurantbooking/model/Restaurant.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/restaurantbooking/restaurantbooking/model/Restaurant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/restaurantbooking/restaurantbooking/repository/CustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/restaurantbooking/restaurantbooking/repository/CustomerRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/restaurantbooking/restaurantbooking/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/restaurantbooking/restaurantbooking/service/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/restaurantbooking/restaurantbooking/service/LocationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/restaurantbooking/restaurantbooking/service/LocationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/restaurantbooking/restaurantbooking/web/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/restaurantbooking/restaurantbooking/web/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/restaurantbooking/restaurantbooking/web/LocationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/restaurantbooking/restaurantbooking/web/LocationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/restaurantbooking/restaurantbooking/RestaurantbookingApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/restaurantbooking-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/RestaurantbookingApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/model/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/model/Food.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/model/Location.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/model/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/model/MenuItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/model/MenuItemPrice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/model/Restaurant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/model/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/model/UserRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/repository/CustomerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/repository/FoodRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/repository/LocationRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/repository/RestaturantRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/service/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/service/FoodService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/service/LocationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/service/Restaturantservice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/web/CustomerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/web/FoodController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/web/LocationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/web/RestaturantController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/com/restaurantbooking/restaurantbooking/web/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/0_200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/289626.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/31444674_BINARY_GI20180522_GONCALO_VILLAVERDE_0137_resultado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/Restaurant05_1000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/Sands-Restaurant.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/Toronto-restaurant-Sara-entertainment-district-OD_KCHN0554-HERO-SHOT.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/bookingtable.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/bookingtable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/card.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/cart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/chennai.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/chennai.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/csm_TI_RESTAURANT_PALMBEACH4_RGB_2000x860_add5f54263.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/csm_restaurant-img-02_d666f4932c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/download (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/images.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/order.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/order.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/pay.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/restaurant-chocolat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/restaurante-varanda-de-lisboa--v15969937-w902 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/restaurante-varanda-de-lisboa--v15969937-w902.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/saravanabavan.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/saravanabavan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/sigin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/sign in.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/sign in.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/signin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/stanhope-hotel-brighton-restaurant-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/style3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restaurantbooking/static/try.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/restaurantbooking/com/restaurantbooking/restaurantbooking/RestaurantbookingApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurantbooking.iml" beforeDir="false" afterPath="$PROJECT_DIR$/restaurantbooking.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurantbooking.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/restaurantbooking.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/restaurantbooking.iws" beforeDir="false" afterPath="$PROJECT_DIR$/restaurantbooking.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/web/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/web/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bookingtable.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bookingtable.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bookingtable.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/bookingtable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/chennai.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/chennai.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/order.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/order.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/order.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/sign in.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/sign in.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -80,6 +172,39 @@
     <breakpoint_rules converted="true" />
     <ui_properties converted="true" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Spring_boot" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Spring_boot" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="915965732">
       <usages-collector id="statistics.lifecycle.project">
@@ -126,37 +251,61 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/web/CustomerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="62" column="54" selection-start-line="62" selection-start-column="54" selection-end-line="62" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/sign in.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2907">
-              <caret line="171" column="54" selection-start-line="171" selection-start-column="54" selection-end-line="171" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="107" column="22" lean-forward="true" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/model/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <state relative-caret-position="969">
+              <caret line="89" column="1" selection-end-line="89" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/model/Restaurant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/web/CustomerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1105">
+              <caret line="76" selection-end-line="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1122">
+              <caret line="66" column="35" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/model/Menu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -164,30 +313,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1510">
-              <caret line="104" selection-start-line="104" selection-end-line="104" />
-              <folding>
-                <element signature="n#style#0;n#h5#0;n#label#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h5#0;n#label#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/repository/CustomerRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+            <state relative-caret-position="289">
+              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -195,8 +322,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+            <state relative-caret-position="1649">
+              <caret line="97" selection-end-line="97" />
             </state>
           </provider>
         </entry>
@@ -204,17 +331,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/web/RestaturantController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="281">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/web/LocationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+            <state relative-caret-position="281">
+              <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -250,13 +377,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/service/LocationService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/model/Customer.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/home.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/sign in.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/repository/CustomerRepository.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/web/CustomerController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/login.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/1.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/home.html" />
       </list>
     </option>
   </component>
@@ -277,8 +404,8 @@
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="36" />
-    <option name="width" value="1116" />
+    <option name="y" value="35" />
+    <option name="width" value="1120" />
     <option name="height" value="930" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -295,82 +422,83 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="restaurantbooking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring_boot" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring_boot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="restaurantbooking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring_boot" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring_boot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="restaurantbooking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_boot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="restaurantbooking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring_boot" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring_boot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="restaurantbooking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring_boot" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring_boot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="restaurantbooking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring_boot" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring_boot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="restaurantbooking" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="restaurantbooking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring_boot" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring_boot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="restaurantbooking" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="restaurantbooking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_boot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="restaurantbooking" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="restaurantbooking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_boot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="restaurantbooking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring_boot" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring_boot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurantbooking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring_boot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurantbooking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring_boot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurantbooking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring_boot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="restaurantbooking" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -380,9 +508,16 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561644475793" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradlew clean bootRun" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -396,12 +531,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.Spring_boot [w clean bootRun]">
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="BuildArtifacts" enabled="false" />
@@ -430,7 +565,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring_boot [w clean bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="w" />
+            <option value="clean" />
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Spring_boot" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -441,18 +615,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
+    <configuration default="true" type="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
       <method v="2">
         <option name="BuildArtifacts" enabled="false" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Spring_boot [w clean bootRun]" />
+        <item itemvalue="Gradle.Spring_boot" />
         <item itemvalue="Application.RestaurantbookingApplication" />
       </list>
     </recent_temporary>
@@ -479,10 +656,9 @@
     <option name="totallyTimeSpent" value="37051000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20890689" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13691275" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -491,20 +667,21 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.47957373" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47875354" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.40319717" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3285968" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3895184" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32719547" />
       <window_info anchor="bottom" id="Spring" order="12" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32955465" />
+      <window_info anchor="bottom" id="Build" order="13" sideWeight="0.49932885" weight="0.3286119" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" visible="true" weight="0.3295302" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.24966443" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
@@ -513,63 +690,30 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32955465" />
       <window_info anchor="right" id="Maven Projects" order="10" weight="0.32955465" />
+      <window_info anchor="right" id="Maven" order="11" />
+      <window_info anchor="right" id="Gradle" order="12" weight="0.3295302" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25506073" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.40319717" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3285968" />
-      <window_info anchor="bottom" id="Spring" order="12" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32955465" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32955465" />
-      <window_info anchor="right" id="Maven Projects" order="10" weight="0.32955465" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/restaurantbooking$Spring_boot.ic" NAME="Spring_boot Coverage Results" MODIFIED="1562079201726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/restaurantbooking$Spring_boot__w_clean_bootRun_.ic" NAME="Spring_boot [w clean bootRun] Coverage Results" MODIFIED="1562775206735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/model/Food.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -580,38 +724,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/RestaurantbookingApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.persistence/javax.persistence-api/2.2/462dff65f6f8bde02ee9d8afe07fe9d50268199c/javax.persistence-api-2.2-sources.jar!/javax/persistence/OneToMany.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="131" column="21" lean-forward="true" selection-start-line="131" selection-start-column="21" selection-end-line="131" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/model/Restaurant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.persistence/javax.persistence-api/2.2/462dff65f6f8bde02ee9d8afe07fe9d50268199c/javax.persistence-api-2.2-sources.jar!/javax/persistence/OneToMany.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/model/Location.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>
@@ -643,13 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/web/CustomerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="62" column="54" selection-start-line="62" selection-start-column="54" selection-end-line="62" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/sign in.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2907">
@@ -657,17 +767,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/model/Customer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="1819">
+          <caret line="107" column="22" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/Spring_boot.iml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/RestaurantbookingApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="272">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="79" column="39" selection-start-line="79" selection-start-column="39" selection-end-line="79" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#h5#0;n#label#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#label#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -678,44 +800,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/model/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="89" column="1" selection-end-line="89" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/model/Restaurant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/web/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" column="35" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/model/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+        <state relative-caret-position="1649">
+          <caret line="97" selection-end-line="97" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/web/RestaturantController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="281">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/restaurantbooking/restaurantbooking/web/LocationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+        <state relative-caret-position="281">
+          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1510">
-          <caret line="104" selection-start-line="104" selection-end-line="104" />
-          <folding>
-            <element signature="n#style#0;n#h5#0;n#label#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h5#0;n#label#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="107" column="22" lean-forward="true" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="gradleExecuteTaskHistory">
+    <option value="$PROJECT_DIR$" />
   </component>
 </project>

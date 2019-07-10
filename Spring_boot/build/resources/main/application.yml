@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:h2:file:~/restaurantbooking
+    url: jdbc:h2:file:~/Spring_boot
     driver-class-name: org.h2.Driver
     username: sa
     password:
@@ -8,7 +8,7 @@ spring:
   jpa:
     show-sql: true
     hibernate:
-       ddl-auto: create-drop
+       ddl-auto: update
 
   h2:
     console:
